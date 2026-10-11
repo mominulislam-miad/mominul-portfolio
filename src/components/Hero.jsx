@@ -98,9 +98,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 sm:gap-3 mb-5 sm:mb-6"
           >
-            <div className="inline-flex items-center gap-2 rounded-full border border-cyan/35 bg-cyan/10 px-3.5 py-1.5 text-xs sm:text-sm font-semibold text-cyan shadow-glow backdrop-blur-md">
+           {/* <div className="inline-flex items-center gap-2 rounded-full border border-cyan/35 bg-cyan/10 px-3.5 py-1.5 text-xs sm:text-sm font-semibold text-cyan shadow-glow backdrop-blur-md">
               <FiZap className="text-cyan animate-pulse" /> Developer
-            </div>
+            </div> */}
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/35 bg-emerald-500/10 px-3.5 py-1.5 text-xs sm:text-sm font-semibold text-emerald-400 backdrop-blur-md">
               <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)] animate-pulse" />
               Available
