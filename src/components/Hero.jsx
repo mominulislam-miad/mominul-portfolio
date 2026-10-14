@@ -204,7 +204,7 @@ export default function Hero() {
               <FiSend /> Contact Me
             </MagneticButton>
             <MagneticButton
-              href="/mominul-islam-cv.pdf"
+              href="/mominul-cv.pdf"
               download
               variant="secondary"
               className="w-full sm:w-auto"
