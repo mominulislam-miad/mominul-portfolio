@@ -78,7 +78,7 @@ export default function Projects() {
                 <a href="#contact" className="w-full sm:w-auto">
                   <FiExternalLink /> Live Demo
                 </a>
-                <a href="https://github.com/mominulislam2003" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
+                <a href="https://github.com/mominulislam2003" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                   <FiGithub /> GitHub
                 </a>
               </div>

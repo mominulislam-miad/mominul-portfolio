@@ -1,0 +1,12 @@
+# =============================================================================
+# ROBOTS.TXT — Search Engine Crawler Instructions
+# =============================================================================
+# Tells search engine bots (Google, Bing, etc.) which pages to crawl and index.
+# The sitemap directive points crawlers to the XML sitemap for full discovery.
+# =============================================================================
+
+User-agent: *
+Allow: /
+
+# Sitemap location (UPDATE the domain to your actual deployed URL)
+Sitemap: https://mominul--islam.vercel.app/sitemap.xml

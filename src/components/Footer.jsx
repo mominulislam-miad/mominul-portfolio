@@ -25,13 +25,13 @@ export default function Footer() {
         <div>
           <p className="font-display text-lg font-bold text-white">Mominul Islam</p>
           <p className="mt-1 text-sm text-slate-400">
-            Modern web experiences with performance, clarity, and motion.
+            Full stack web developer — modern web experiences with performance, clarity, and motion.
           </p>
         </div>
 
         {/* Copyright note & return to top button */}
         <div className="flex items-center gap-4">
-          <p className="text-sm text-slate-500">Copyright 2026. All rights reserved.</p>
+          <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} Mominul Islam. All rights reserved.</p>
           <button onClick={top} className="back-top" aria-label="Back to top">
             <FiArrowUp />
           </button>

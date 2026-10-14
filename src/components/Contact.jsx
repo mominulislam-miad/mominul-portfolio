@@ -82,7 +82,7 @@ export default function Contact() {
                   key={social.name}
                   href={social.href}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label={social.name}
                   className="social-button"
                 >

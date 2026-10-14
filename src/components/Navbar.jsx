@@ -86,7 +86,7 @@ export default function Navbar() {
     <>
       {/* Top Floating Header Container */}
       <header className="fixed left-0 right-0 top-3 z-50 px-3 sm:top-5 sm:px-6">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/20 bg-white/[0.08] px-3.5 py-2.5 shadow-[0_20px_50px_rgba(0,0,0,0.5),inset_0_1px_1px_rgba(255,255,255,0.35),inset_0_-1px_1px_rgba(0,0,0,0.2)] backdrop-blur-[30px] sm:px-5 sm:py-3">
+        <nav aria-label="Main navigation" className="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-white/20 bg-white/[0.08] px-3.5 py-2.5 shadow-[0_20px_50px_rgba(0,0,0,0.5),inset_0_1px_1px_rgba(255,255,255,0.35),inset_0_-1px_1px_rgba(0,0,0,0.2)] backdrop-blur-[30px] sm:px-5 sm:py-3">
           {/* Brand Logo / Avatar link */}
           <a
             href="#home"
