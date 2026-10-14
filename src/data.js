@@ -124,6 +124,6 @@ export const socials = [
   { name: 'GitHub', icon: FaGithub, href: 'https://github.com/mominulislam-miad' },
   { name: 'LinkedIn', icon: FaLinkedinIn, href: 'https://www.linkedin.com/in/mominul-islam-miad' },
   { name: 'Facebook', icon: FaFacebookF, href: 'https://www.facebook.com/mominulislam.miad' },
-  { name: 'WhatsApp', icon: FaWhatsapp, href: 'https://wa.me/015600193656' },
+  { name: 'WhatsApp', icon: FaWhatsapp, href: 'https://wa.me/@mominulislam.miad' },
 ];
 
