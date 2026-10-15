@@ -1,0 +1,18 @@
+{
+  "name": "Mominul Islam — Full Stack Developer Portfolio",
+  "short_name": "Mominul Islam",
+  "description": "Portfolio of Mominul Islam, a full stack web developer from Khulna, Bangladesh, specializing in React, PHP, MySQL, and Tailwind CSS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#050816",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/avater.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

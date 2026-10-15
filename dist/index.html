@@ -1,0 +1,186 @@
+<!-- 
+  =============================================================================
+  INDEX.HTML - Application Shell & Entry Point (SEO-Optimized)
+  =============================================================================
+  This file is the root HTML template for the Vite + React single page app.
+  
+  HOW TO CUSTOMIZE:
+  - Title & Meta Tags: Modify the <title> and <meta name="description"> below
+    to change your SEO preview and social media cards.
+  - Open Graph (OG) tags: Update og:title, og:description, og:image for social sharing.
+  - Twitter Card tags: Update twitter:title, twitter:description for Twitter/X sharing.
+  - Canonical URL: Update the <link rel="canonical"> to your deployed domain.
+  - Structured Data: Update the JSON-LD script with your real info (name, URLs, etc.).
+  - Fonts: We preconnect and load 'Inter' and 'Space Grotesk' from Google Fonts.
+    If you add new fonts, update the <link> tags here and in tailwind.config.js.
+  - Favicon: The <link rel="icon"> points to /avater.png in the /public folder.
+  =============================================================================
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Ensures proper mobile responsive viewport scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== SEO CORE META TAGS ===================== -->
+  <!-- Page Title: Include primary keyword + brand name (50-60 chars ideal) -->
+  <title>Mominul Islam | Full Stack Web Developer — React, PHP & MySQL Portfolio</title>
+
+  <!-- Meta Description: Compelling summary with keywords (150-160 chars ideal) -->
+  <meta name="description"
+    content="Mominul Islam is a full stack web developer from Khulna, Bangladesh. Explore his portfolio of modern, high-performance web experiences built with React, PHP, MySQL, and Tailwind CSS." />
+
+  <!-- Author -->
+  <meta name="author" content="Mominul Islam" />
+
+  <!-- Target keywords for search engines -->
+  <meta name="keywords"
+    content="Mominul Islam, full stack developer, web developer, React developer, PHP developer, MySQL, Tailwind CSS, portfolio, Bangladesh, Khulna, frontend developer, backend developer, web design, freelance developer" />
+
+  <!-- Tell search engines to index this page and follow all links -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  <!-- Canonical URL: Prevents duplicate content issues -->
+  <link rel="canonical" href="https://mominul-portfolio.vercel.app/" />
+
+  <!-- Browser mobile address bar color in dark mode -->
+  <meta name="theme-color" content="#050816" />
+
+  <!-- ===================== OPEN GRAPH (Facebook, LinkedIn, Discord) ===================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Mominul Islam Portfolio" />
+  <meta property="og:title" content="Mominul Islam | Full Stack Web Developer" />
+  <meta property="og:description"
+    content="Explore the portfolio of Mominul Islam — a passionate full stack developer building modern web experiences with React, PHP, MySQL, Tailwind CSS, and cinematic animation." />
+  <meta property="og:url" content="https://mominul-portfolio.vercel.app/" />
+  <!-- Social sharing preview image -->
+  <meta property="og:image" content="https://mominul-portfolio.vercel.app/avater.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Mominul Islam — Full Stack Web Developer Portfolio" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ===================== TWITTER / X CARD ===================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mominul Islam | Full Stack Web Developer" />
+  <meta name="twitter:description"
+    content="Full stack developer portfolio — React, PHP, MySQL, Tailwind CSS. Modern web experiences with cinematic motion and clean design." />
+  <meta name="twitter:image" content="https://mominul-portfolio.vercel.app/avater.png" />
+  <meta name="twitter:image:alt" content="Mominul Islam — Full Stack Web Developer Portfolio" />
+
+  <!-- ===================== FAVICONS & APP MANIFEST ===================== -->
+  <!-- Browser Tab Favicon -->
+  <link rel="icon" type="image/png" href="/avater.png" />
+  <!-- Apple Touch Icon for iOS home screen bookmarks -->
+  <link rel="apple-touch-icon" href="/avater.png" />
+  <!-- Web App Manifest for PWA support and richer search results -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- ===================== GOOGLE FONTS ===================== -->
+  <!-- Preconnect for faster DNS lookup and TLS handshake -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Primary fonts: 'Inter' (body text) and 'Space Grotesk' (display/headings) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- ===================== STRUCTURED DATA (JSON-LD) ===================== -->
+  <!-- Rich snippet schema for Google Knowledge Panel & enhanced search results -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mominul Islam",
+        "alternateName": "Mominul Islam MIAD",
+        "url": "https://mominul-portfolio.vercel.app/",
+        "image": "https://mominul-portfolio.vercel.app/avater.png",
+        "jobTitle": "Full Stack Web Developer",
+        "description": "Full stack web developer from Khulna, Bangladesh, specializing in React, PHP, MySQL, and Tailwind CSS. Building modern, high-performance web experiences with cinematic motion and clean system design.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Khulna",
+          "addressCountry": "BD",
+          "postalCode": "9000"
+        },
+        "email": "mailto:mominulislam.miad@gmail.com",
+        "telephone": "+8801560019656",
+        "sameAs": [
+          "https://github.com/mominulislam2003",
+          "https://www.linkedin.com/in/mominulislammiad",
+          "https://www.facebook.com/mominulislam.miad"
+        ],
+        "knowsAbout": [
+          "React", "PHP", "MySQL", "JavaScript", "HTML", "CSS",
+          "Tailwind CSS", "Git", "Full Stack Development",
+          "Frontend Development", "Web Design", "UI/UX"
+        ]
+      }
+    </script>
+
+  <!-- ProfilePage schema for enhanced Google listing -->
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mominul Islam Portfolio",
+        "url": "https://mominul-portfolio.vercel.app/",
+        "description": "Portfolio of Mominul Islam — full stack web developer specializing in React, PHP, MySQL, and Tailwind CSS."
+      }
+    </script>
+  <script type="module" crossorigin src="/assets/index-CCmyoFIi.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-animation-AqEtxadJ.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-react-C_QWLf4_.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-scroll-D7TmsVAo.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-BlHPtHbC.css">
+</head>
+
+<body>
+  <!-- React mounts the entire application into this #root container -->
+  <div id="root"></div>
+
+  <!-- Noscript fallback: Provides crawlable content for search engines that don't execute JavaScript -->
+  <noscript>
+    <div
+      style="max-width:800px;margin:60px auto;padding:20px;font-family:Inter,system-ui,sans-serif;color:#e2e8f0;background:#050816;">
+      <h1>Mominul Islam — Full Stack Web Developer</h1>
+      <p>
+        I'm Mominul Islam, a passionate full stack web developer from Khulna, Bangladesh.
+        I specialize in building modern, high-performance digital products using React, PHP, MySQL,
+        Tailwind CSS, and cutting-edge animation libraries.
+      </p>
+      <h2>Skills</h2>
+      <p>HTML, CSS, JavaScript, React, PHP, MySQL, Git, Tailwind CSS</p>
+      <h2>Services</h2>
+      <ul>
+        <li>Web Development</li>
+        <li>Frontend Development</li>
+        <li>Admin Panel Development</li>
+        <li>Database Design</li>
+        <li>UI/UX Implementation</li>
+      </ul>
+      <h2>Projects</h2>
+      <ul>
+        <li>Student Management System — PHP, MySQL, Admin UI</li>
+        <li>Notice Website — React, Tailwind, CMS Flow</li>
+        <li>Mobile Master Shop Website — Frontend, Catalog, UX</li>
+        <li>Portfolio Website — React, Motion, SEO</li>
+      </ul>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mominulislam.miad@gmail.com">mominulislam.miad@gmail.com</a></p>
+      <p>Phone: <a href="tel:+8801560019656">+8801560-019656</a></p>
+      <p>Location: GPO-9000, Khulna, Bangladesh</p>
+      <p>
+        <a href="https://github.com/mominulislam-miad">GitHub</a> |
+        <a href="https://www.linkedin.com/in/mominul-islam-miad/">LinkedIn</a> |
+        <a href="https://www.facebook.com/mominulislam.miad">Facebook</a>
+      </p>
+    </div>
+  </noscript>
+
+  <!-- Vite entry point module connecting to src/main.jsx -->
+</body>
+
+</html>
