@@ -9,4 +9,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location (UPDATE the domain to your actual deployed URL)
-Sitemap: https://mominul--islam.vercel.app/sitemap.xml
+Sitemap: https://mominul-portfolio.vercel.app/sitemap.xml

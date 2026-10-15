@@ -8,14 +8,14 @@
   your pages for faster and more complete indexing.
 
   HOW TO CUSTOMIZE:
-  - Domain configured: https://mominul--islam.vercel.app/
+  - Domain configured: https://mominul-portfolio.vercel.app/
   - Update <lastmod> dates whenever content on a page changes significantly.
   - Add new <url> entries if you create additional standalone pages in the future.
   =============================================================================
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mominul--islam.vercel.app/</loc>
+    <loc>https://mominul-portfolio.vercel.app/</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
